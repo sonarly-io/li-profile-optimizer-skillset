@@ -1,6 +1,6 @@
 # LinkedIn Profile Analysis Rubric
 
-Use this rubric for full audits, focused scorecards, section reviews, and target-audience fit analysis. Score each dimension from 1 to 5 only when the supplied profile material provides enough evidence.
+Use this rubric for full audits, screenshot audits, focused scorecards, section reviews, and target-audience fit analysis. Score each dimension from 1 to 5 only when the supplied profile material provides enough evidence.
 
 ## Scoring Scale
 
@@ -12,6 +12,21 @@ Use this rubric for full audits, focused scorecards, section reviews, and target
 - **Unknown**: Not enough evidence in the supplied material.
 
 ## Dimensions
+
+### Screenshot Coverage
+
+Evaluate whether the supplied screenshots are sufficient for a reliable audit.
+
+Look for:
+- Full-page screenshot or enough section screenshots to cover intro, About, Featured, Activity, Experience, Skills, Recommendations, and Education/certifications.
+- Text readability.
+- Expanded About and Experience text when copy-level feedback is requested.
+- Activity/posts/comments screenshots when content authority is requested.
+
+Common fixes:
+- Ask for a full-page Chrome screenshot.
+- Ask for missing section screenshots instead of guessing.
+- Mark unseen sections as `Unknown`.
 
 ### Positioning Clarity
 
@@ -27,6 +42,22 @@ Common fixes:
 - Rewrite the headline around role + category + proof or role + audience + outcome.
 - Replace broad claims with a sharper professional category.
 - Move the strongest proof point into the opening lines.
+
+### Visual Trust And Hierarchy
+
+Evaluate whether the visual first impression supports the user's goal.
+
+Look for:
+- Banner communicates category, company, product, domain, or professional context.
+- Photo is clear, current, and appropriate for the target audience.
+- First-screen layout makes headline, current role, location, and proof easy to scan.
+- Section order surfaces the most persuasive proof early.
+- Visual clutter, mismatched banner messaging, or weak thumbnails do not distract from the profile story.
+
+Common fixes:
+- Replace generic banners with category/proof/brand-specific visuals.
+- Use Featured thumbnails/titles that make proof legible before click-through.
+- Move strongest proof into the first visible sections.
 
 ### Credibility Density
 
@@ -124,14 +155,95 @@ Common fixes:
 - Turn experience into teachable insights.
 - Pin or feature the strongest proof content.
 
+## Section Metrics
+
+Score visible sections from 1 to 5 and mark missing or unreadable sections as `Unknown`.
+
+### Intro / Hero
+
+Evaluate banner, photo, name, headline, current role, location, contact buttons, creator/open-to-work signals, and first-screen clarity.
+
+Strong signals:
+- Headline states role/category plus proof, audience, or outcome.
+- Current role and company make the positioning credible.
+- Banner reinforces the same category or company story.
+- Location and availability are clear when relevant.
+- Contact/follow/connect path matches the user's goal.
+
+### About
+
+Evaluate the opening hook, reader relevance, professional narrative, proof, keywords, and call to action.
+
+Strong signals:
+- First 2-3 lines work before "see more".
+- The section explains who the person helps, what they do, and what proof supports it.
+- Uses target audience language without keyword stuffing.
+- Ends with a clear next action when appropriate.
+
+### Featured
+
+Evaluate whether Featured content proves the intended positioning.
+
+Strong signals:
+- Includes 2-4 high-relevance proof assets before less important items.
+- Titles/thumbnails make the value legible without clicking.
+- Assets match the target audience: portfolio, case study, product demo, talks, press, posts, publications, GitHub, company page, or lead magnet.
+
+### Activity / Posts
+
+Evaluate recency, topic consistency, expertise, and audience engagement.
+
+Strong signals:
+- Recent posts or comments in the intended category.
+- Posts show judgment, examples, or analysis rather than only announcements.
+- Comments add expertise in relevant conversations.
+- Topic pillars are clear.
+
+### Experience
+
+Evaluate role clarity, scope, outcomes, progression, and fit for the target goal.
+
+Strong signals:
+- Current and recent roles include role scope, company context, and measurable outcomes.
+- Bullets describe impact, not only duties.
+- Career transitions are understandable.
+- Keywords appear naturally in role descriptions.
+
+### Skills
+
+Evaluate target-role alignment, search readiness, and evidence linkage.
+
+Strong signals:
+- Skills match the target role, buyer problem, or category.
+- Most important skills are visible near the top.
+- Skills are backed by Experience, Featured, certifications, or recommendations.
+
+### Recommendations / Social Proof
+
+Evaluate whether recommendations, endorsements, and visible third-party proof support the desired positioning.
+
+Strong signals:
+- Recommendations come from credible managers, clients, colleagues, founders, customers, or industry peers.
+- Quotes support the same claims made in headline/About.
+- Recommendations are recent enough for the user's target positioning.
+
+### Education / Certifications / Projects / Publications
+
+Evaluate only when visible and relevant.
+
+Strong signals:
+- Certifications, projects, publications, awards, or education strengthen the target story.
+- Optional sections are not clutter; they add proof, specialization, or trust.
+
 ## Prioritization Heuristic
 
 Rank recommendations by:
 
 1. First-screen clarity: headline, banner, opening About lines, current role.
 2. Trust proof: metrics, featured assets, experience outcomes.
-3. Audience alignment: keywords, language, proof type, call to action.
-4. Completeness: skills, recommendations, media, contact path.
-5. Content strategy: posts, comments, themes, cadence.
+3. Screenshot-visible proof: Featured, Activity, Experience, recommendations.
+4. Audience alignment: keywords, language, proof type, call to action.
+5. Completeness: skills, recommendations, certifications, media, contact path.
+6. Content strategy: posts, comments, themes, cadence.
 
 High-impact quick wins usually include headline rewrite, About opening rewrite, experience bullet tightening, Featured section cleanup, and skills alignment.

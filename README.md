@@ -1,6 +1,6 @@
 # LinkedIn Profile Analyzer Skillset
 
-A portable AI skillset for auditing and improving LinkedIn profiles. It supports evidence-led profile scorecards, recruiter/search optimization, founder or executive positioning, sales/outreach relevance, content authority analysis, and section rewrites.
+A portable AI skillset for auditing and improving LinkedIn profiles from full-page screenshots or section screenshots. It supports evidence-led profile scorecards, recruiter/search optimization, founder or executive positioning, sales/outreach relevance, content authority analysis, and section rewrites.
 
 ## Supported Agents
 
@@ -66,6 +66,19 @@ This repo is packaged as:
 ```text
 skills/linkedin-profile-analysis
 ```
+
+## Screenshot Workflow
+
+The recommended input is one full-page screenshot of the LinkedIn profile from desktop Chrome.
+
+1. Open the profile in Chrome.
+2. Scroll to the top.
+3. Open DevTools: `Option` + `Command` + `I` on Mac, or `Ctrl` + `Shift` + `I` on Windows/Linux.
+4. Open Command Menu: `Command` + `Shift` + `P` on Mac, or `Ctrl` + `Shift` + `P` on Windows/Linux.
+5. Type `Capture full size screenshot` and press Enter.
+6. Upload the downloaded PNG to Claude, Codex, or Gemini and ask for the LinkedIn Profile Analyzer.
+
+If full-page capture does not work, upload section screenshots: intro/hero, About, Featured, Activity/posts, Experience, Skills, Recommendations, and Education/certifications. Blur private contact details before uploading.
 
 ## Installation
 
@@ -141,7 +154,7 @@ Optionally upload the files in `skills/linkedin-profile-analysis/references` as 
 ## Example Prompt
 
 ```text
-Use $linkedin-profile-analysis to audit this LinkedIn profile for a senior product leadership search. Score the profile, identify the top fixes, and rewrite the headline and About opening.
+Use the LinkedIn Profile Analyzer to audit these screenshots for a senior product leadership search. Score each profile section, identify the top fixes, and rewrite the headline and About opening.
 ```
 
 ## Publishing Checklist

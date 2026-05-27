@@ -4,8 +4,10 @@ When asked to analyze, audit, rewrite, or optimize a LinkedIn profile, use the s
 
 Load reference files only as needed:
 
+- `skills/linkedin-profile-analysis/references/screenshot-intake.md` when the user needs capture instructions or provides screenshots.
 - `skills/linkedin-profile-analysis/references/analysis-rubric.md` for scorecards, audits, and audience-fit analysis.
 - `skills/linkedin-profile-analysis/references/output-templates.md` for structured deliverables and section rewrites.
 - `skills/linkedin-profile-analysis/references/ethics-and-boundaries.md` for sensitive, third-party, scraped, or high-stakes analysis.
+- `skills/linkedin-profile-analysis/references/research-basis.md` when explaining why profile sections or metrics matter.
 
-Keep analysis evidence-led. Separate observable profile communication issues from career advice, avoid sensitive inferences, and mark unverified claims with placeholders.
+Prefer full-page LinkedIn profile screenshots from desktop Chrome. If the user provides partial screenshots, score visible sections and mark missing or unreadable sections as `Unknown`. Keep analysis evidence-led. Separate observable profile communication issues from career advice, avoid sensitive inferences, and mark unverified claims with placeholders.

@@ -9,17 +9,39 @@ Use these templates as structure, not as rigid prose. Keep the output concise un
 
 [2-4 sentence assessment for the user's stated goal.]
 
+## Screenshot Coverage
+
+- Coverage: [Full-page / Section set / Partial]
+- Visible sections: [list]
+- Missing or unreadable sections: [list]
+- Confidence: [High / Medium / Low]
+
 ## Scorecard
 
 | Dimension | Score | Evidence | Risk | Best Fix |
 |---|---:|---|---|---|
+| Screenshot coverage | [1-5/Unknown] | [visible evidence] | [impact] | [specific fix] |
 | Positioning clarity | [1-5/Unknown] | [observable evidence] | [impact] | [specific fix] |
+| Visual trust and hierarchy | [1-5/Unknown] | [observable evidence] | [impact] | [specific fix] |
 | Credibility density | [1-5/Unknown] | [observable evidence] | [impact] | [specific fix] |
 | Audience fit | [1-5/Unknown] | [observable evidence] | [impact] | [specific fix] |
 | Search discoverability | [1-5/Unknown] | [observable evidence] | [impact] | [specific fix] |
 | Narrative coherence | [1-5/Unknown] | [observable evidence] | [impact] | [specific fix] |
 | Conversion readiness | [1-5/Unknown] | [observable evidence] | [impact] | [specific fix] |
 | Content authority | [1-5/Unknown] | [observable evidence] | [impact] | [specific fix] |
+
+## Section Metrics
+
+| Section | Score | What Works | Gap | Fix |
+|---|---:|---|---|---|
+| Intro / Hero | [1-5/Unknown] | [evidence] | [gap] | [fix] |
+| About | [1-5/Unknown] | [evidence] | [gap] | [fix] |
+| Featured | [1-5/Unknown] | [evidence] | [gap] | [fix] |
+| Activity / Posts | [1-5/Unknown] | [evidence] | [gap] | [fix] |
+| Experience | [1-5/Unknown] | [evidence] | [gap] | [fix] |
+| Skills | [1-5/Unknown] | [evidence] | [gap] | [fix] |
+| Recommendations | [1-5/Unknown] | [evidence] | [gap] | [fix] |
+| Education / Certs / Projects | [1-5/Unknown] | [evidence] | [gap] | [fix] |
 
 ## Top Priorities
 
@@ -56,6 +78,26 @@ Use these templates as structure, not as rigid prose. Keep the output concise un
 - [Missing fact that would improve accuracy]
 ```
 
+## Screenshot Intake Request
+
+```markdown
+Please upload either:
+
+1. One Chrome full-page screenshot of the whole LinkedIn profile, or
+2. Screenshots of these sections: intro/hero, About, Featured, Activity/posts, Experience, Skills, Recommendations, Education/certifications.
+
+Chrome full-page screenshot:
+
+1. Open the profile in Chrome.
+2. Scroll to the top.
+3. Open DevTools: `Option` + `Command` + `I` on Mac, or `Ctrl` + `Shift` + `I` on Windows/Linux.
+4. Open Command Menu: `Command` + `Shift` + `P` on Mac, or `Ctrl` + `Shift` + `P` on Windows/Linux.
+5. Type `Capture full size screenshot` and press Enter.
+6. Upload the downloaded PNG.
+
+Blur private contact details or unrelated personal data before uploading.
+```
+
 ## Quick Audit
 
 ```markdown
@@ -65,6 +107,7 @@ Use these templates as structure, not as rigid prose. Keep the output concise un
 - Target reader: [summary]
 - Strongest proof: [summary]
 - Main gap: [summary]
+- Screenshot confidence: [High / Medium / Low]
 
 ## Fix First
 
