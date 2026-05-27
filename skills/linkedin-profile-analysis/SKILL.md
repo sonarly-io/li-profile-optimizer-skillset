@@ -53,6 +53,7 @@ Do not browse, scrape, or infer private LinkedIn data unless the user explicitly
 ## Analysis Rubrics
 
 Read `references/analysis-rubric.md` when producing a full audit, screenshot audit, scorecard, role-fit analysis, or audience-fit analysis.
+Read `references/parameter-research.md` when the user asks for research-backed rationale, when adjusting the rubric, or when you need deeper context for why a parameter matters. Apply its recency rule: prefer sources from the last 90 days, and label older official platform documentation as stable context.
 
 Core dimensions:
 
@@ -70,6 +71,7 @@ Core dimensions:
 
 Read `references/output-templates.md` when the user asks for a particular deliverable or when a structured response would help.
 Read `references/html-report.md` when the user asks for a polished HTML report, dashboard, charts, shareable artifact, or browser-openable deliverable.
+Read `references/research-basis.md` for compact source context, or `references/parameter-research.md` for deeper parameter-level research context.
 
 Default audit format:
 

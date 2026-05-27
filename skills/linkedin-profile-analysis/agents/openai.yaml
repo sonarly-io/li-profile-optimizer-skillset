@@ -1,4 +1,4 @@
 interface:
-  display_name: "LinkedIn Profile Analysis"
+  display_name: "LI Profile Optimizer Skillset"
   short_description: "Audit LinkedIn profiles with evidence-led rubrics"
   default_prompt: "Use $linkedin-profile-analysis to audit this LinkedIn profile and recommend prioritized improvements."

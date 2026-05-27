@@ -2,6 +2,8 @@
 
 Use this as compact background when explaining why a section matters.
 
+For deeper parameter-level context, use `parameter-research.md`. It includes the current 90-day recency rule, recent-source snapshot, and detailed evaluation guidance for each dimension and section metric.
+
 ## Official LinkedIn Product Signals
 
 - LinkedIn's profile sections include core sections such as About, Education, Position, Services, Career break, and Skills; recommended sections include Featured, Licenses & certifications, Projects, Courses, and Recommendations; additional sections include Volunteer experience, Publications, Patents, Honors & awards, Test scores, Languages, Organizations, and Causes.
@@ -12,15 +14,32 @@ Use this as compact background when explaining why a section matters.
 
 ## Source Links
 
-- LinkedIn Help: Add sections to your profile  
+Recent source snapshot, reviewed 2026-05-27:
+
+- LinkedIn Workforce Report, March 2026
+  `https://economicgraph.linkedin.com/resources/linkedin-workforce-report-march-2026`
+- LinkedIn Marketing Solutions: B2B buying in 2026, AI research meets video influence, March 19, 2026
+  `https://business.linkedin.com/advertise/webinars/26/02/b2b-buying-in-2026-ai-research-meets-video-influence-apac`
+- PeopleSearchBench, submitted March 29, 2026
+  `https://arxiv.org/abs/2603.27476`
+- Resume-ing Control, submitted April 29, 2026
+  `https://arxiv.org/abs/2604.26851`
+- Gartner B2B buyer AI validation survey, May 20, 2026
+  `https://www.gartner.com/en/newsroom/press-releases/2026-05-20-gartner-survey-finds-sixty-nine-percent-of-b-two-b-buyers-turn-to-sales-reps-to-validate-ai-generated-insights`
+- SurveyMonkey, G2, and LinkedIn commentary on B2B buying, May 15, 2026
+  `https://www.surveymonkey.com/curiosity/how-b2b-buyers-decide/`
+
+Stable LinkedIn product documentation:
+
+- LinkedIn Help: Add sections to your profile
   `https://www.linkedin.com/help/learning/answer/a540837/add-sections-to-your-profile?lang=en`
-- LinkedIn Help: Add or remove profile content from Featured  
+- LinkedIn Help: Add or remove profile content from Featured
   `https://www.linkedin.com/help/linkedin/answer/a1584656`
-- LinkedIn Recruiter Help: Skills filter in Recruiter and Recruiter Lite  
+- LinkedIn Recruiter Help: Skills filter in Recruiter and Recruiter Lite
   `https://www.linkedin.com/help/recruiter/answer/a593591`
-- LinkedIn Recruiter Help: Filter search results in Recruiter and Recruiter Lite  
+- LinkedIn Recruiter Help: Filter search results in Recruiter and Recruiter Lite
   `https://www.linkedin.com/help/recruiter/answer/a414281`
-- Chrome for Developers: DevTools screenshot tips, including full-page screenshots  
+- Chrome for Developers: DevTools screenshot tips, including full-page screenshots
   `https://developer.chrome.com/blog/devtools-tips-33`
 
 ## Practical Analysis Implications

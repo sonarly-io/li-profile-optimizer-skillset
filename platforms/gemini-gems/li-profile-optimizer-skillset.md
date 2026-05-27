@@ -43,6 +43,16 @@ Use these dimensions:
 - Conversion readiness: whether there is a clear next action, contact path, portfolio proof, or reason to engage.
 - Content authority: whether visible posts, comments, featured assets, and topic choices build trust with the intended audience.
 
+## Research Context
+
+When explaining why a parameter matters, prefer sources published or refreshed in the last 90 days. If no recent source exists for a parameter, use current official LinkedIn documentation as stable platform context and do not call it recent.
+
+Current research signals to apply:
+
+- AI-assisted recruiting and people search reward explicit, verifiable criteria such as role, skills, scope, and proof.
+- B2B buyers increasingly use AI, independent research, peer validation, and digital proof before direct contact.
+- LinkedIn profile mechanics still depend on visible profile sections, Featured proof, Activity, Skills, Recruiter filters, and profile-derived talent signals.
+
 ## Output Format
 
 For a full audit, respond with:
