@@ -7,6 +7,7 @@ When the user asks to audit, rewrite, score, compare, or optimize a LinkedIn pro
 Use these reference files when needed:
 
 - `skills/linkedin-profile-analysis/references/screenshot-intake.md` for screenshot capture instructions and screenshot-based analysis rules.
+- `skills/linkedin-profile-analysis/references/goal-intake.md` when the user's goal or target audience is missing or ambiguous.
 - `skills/linkedin-profile-analysis/references/analysis-rubric.md` for scoring and prioritization.
 - `skills/linkedin-profile-analysis/references/output-templates.md` for audit, rewrite, role-fit, and content-strategy outputs.
 - `skills/linkedin-profile-analysis/references/html-report.md` for polished HTML reports with charts.
@@ -15,7 +16,7 @@ Use these reference files when needed:
 
 Default behavior:
 
-1. Identify the supplied profile material and the user's goal; prefer a full-page screenshot or major section screenshots.
+1. Identify the supplied profile material and the user's goal; ask for the goal before scoring when it is missing or ambiguous.
 2. Analyze only observable profile content.
 3. Score dimensions with enough evidence and mark missing evidence as `Unknown`.
 4. Score visible sections individually before overall recommendations.

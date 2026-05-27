@@ -22,6 +22,8 @@ Do not introduce a build step. Do not use React, shadcn/ui, Chart.js, or ECharts
 const auditData = {
   profileName: "Name or profile label",
   targetGoal: "Recruiter visibility / founder credibility / sales relevance / etc.",
+  primaryReader: "Recruiter / buyer / investor / audience / etc.",
+  targetContext: "Target role, market, offer, or category",
   generatedAt: "YYYY-MM-DD",
   confidence: "High / Medium / Low",
   coverage: {
@@ -51,6 +53,8 @@ const auditData = {
 
 - Overall score is 0-100.
 - Dimension and section scores are 1-5.
+- Overall score should use goal-specific weighting from `goal-intake.md` when the goal is known.
+- Include the selected goal and primary reader in the report metadata.
 - Use `null` for missing or unreadable sections so the report renders them as `Unknown`.
 - Keep priorities to 3-7 items.
 - Keep copy boxes short enough to scan.

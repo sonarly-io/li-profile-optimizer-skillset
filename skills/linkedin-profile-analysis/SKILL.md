@@ -18,6 +18,8 @@ Start by identifying the profile analysis context:
 - **Constraints**: tone, geography, industry norms, seniority, desired roles, keywords, and sections the user wants rewritten.
 - **Missing data**: ask only for critical missing inputs. If enough profile material exists, proceed and flag assumptions.
 
+Read `references/goal-intake.md` when the goal is missing or ambiguous. Ask the required goal question before scoring unless the user's request already gives a clear goal. Use the selected goal to weight the overall score and prioritize recommendations.
+
 If the user has not supplied profile material yet, ask for screenshots first. Read `references/screenshot-intake.md` and give the user the shortest capture instructions that fit their environment.
 
 Do not browse, scrape, or infer private LinkedIn data unless the user explicitly asks for browsing and the available tools permit it. Prefer user-provided profile content. If browsing public pages, cite sources and obey site access limits.
@@ -29,16 +31,24 @@ Do not browse, scrape, or infer private LinkedIn data unless the user explicitly
    - **Best**: one Chrome full-page screenshot of the whole profile.
    - **Good**: section screenshots of intro/hero, About, Featured, Activity/posts, Experience, Skills, Recommendations, Education/certifications, and contact/sidebar if visible.
    - **Limited**: any subset; analyze visible sections and mark missing sections as `Unknown`.
-3. Select the relevant analysis mode:
+3. Determine the user's goal and primary reader:
+   - **Job search / recruiter visibility**: optimize for recruiters, hiring managers, search, target-role fit.
+   - **Personal brand / thought leadership**: optimize for authority, audience growth, topic consistency.
+   - **Customer acquisition / sales**: optimize for buyer trust, offer clarity, proof, conversion.
+   - **Founder / investor credibility**: optimize for market narrative, traction, trust, strategic proof.
+   - **Executive presence / board credibility**: optimize for seniority, governance, leadership scope, authority.
+   - **General cleanup**: balanced profile clarity and completeness.
+4. Select the relevant analysis mode:
    - **General audit**: use all scorecard dimensions.
    - **Recruiter/search optimization**: emphasize headline, About, experience, keywords, role alignment, and proof of scope.
    - **Founder/executive/investor credibility**: emphasize narrative, market category, traction proof, authority, and trust signals.
    - **Sales/outreach relevance**: emphasize buyer clarity, pain/category language, credibility, calls to action, and content authority.
    - **Creator/thought leadership**: emphasize topical consistency, post themes, audience promise, and expertise signals.
-4. Score only dimensions with enough evidence. Mark missing evidence as `Unknown`, not as a failure.
-5. Score each visible section separately before giving overall recommendations.
-6. Prioritize fixes by impact and effort. Prefer concrete section edits over generic advice.
-7. When rewriting, preserve factual claims unless the user confirms new details. Use placeholders for unverified metrics.
+5. Score only dimensions with enough evidence. Mark missing evidence as `Unknown`, not as a failure.
+6. Score each visible section separately before giving overall recommendations.
+7. Calculate the overall score using the goal-specific weighting from `references/goal-intake.md` when an overall score is requested.
+8. Prioritize fixes by impact and effort for the selected goal. Prefer concrete section edits over generic advice.
+9. When rewriting, preserve factual claims unless the user confirms new details. Use placeholders for unverified metrics.
 
 ## Analysis Rubrics
 
@@ -64,12 +74,13 @@ Read `references/html-report.md` when the user asks for a polished HTML report, 
 Default audit format:
 
 1. **Verdict**: 2-4 sentences on current profile effectiveness for the stated goal.
-2. **Screenshot Coverage**: visible sections, missing sections, and confidence level.
-3. **Scorecard**: table with dimension, score, evidence, risk, and fix.
-4. **Section Metrics**: score visible profile sections individually.
-5. **Top Priorities**: 3-7 ordered improvements with expected impact.
-6. **Suggested Copy**: rewrites for requested sections, with placeholders for unverified facts.
-7. **Open Inputs**: missing facts that would materially improve the profile.
+2. **Goal Context**: selected goal, primary reader, target role/market/offer, and assumptions.
+3. **Screenshot Coverage**: visible sections, missing sections, and confidence level.
+4. **Scorecard**: table with dimension, score, evidence, risk, and fix.
+5. **Section Metrics**: score visible profile sections individually.
+6. **Top Priorities**: 3-7 ordered improvements with expected impact.
+7. **Suggested Copy**: rewrites for requested sections, with placeholders for unverified facts.
+8. **Open Inputs**: missing facts that would materially improve the profile.
 
 Keep outputs direct and decision-oriented. Avoid padded explanations of LinkedIn basics unless the user asks.
 

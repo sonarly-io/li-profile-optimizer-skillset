@@ -388,6 +388,8 @@
     const auditData = {
       profileName: "Example Profile",
       targetGoal: "Senior product leadership search",
+      primaryReader: "Hiring managers and executive recruiters",
+      targetContext: "Senior product leadership roles in B2B SaaS",
       generatedAt: "2026-05-27",
       confidence: "High",
       coverage: {
@@ -445,7 +447,9 @@
     function renderMeta() {
       const meta = [
         auditData.profileName,
-        auditData.targetGoal,
+        `Goal: ${auditData.targetGoal}`,
+        `Reader: ${auditData.primaryReader}`,
+        auditData.targetContext,
         `Confidence: ${auditData.confidence}`,
         auditData.generatedAt
       ].filter(Boolean);

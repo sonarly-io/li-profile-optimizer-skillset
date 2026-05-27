@@ -9,6 +9,13 @@ Use these templates as structure, not as rigid prose. Keep the output concise un
 
 [2-4 sentence assessment for the user's stated goal.]
 
+## Goal Context
+
+- Goal: [Job search / Personal brand / Customer acquisition / Founder credibility / Executive presence / General cleanup]
+- Primary reader: [recruiter, hiring manager, buyer, investor, executive peer, etc.]
+- Target: [role, audience, market, offer, or category]
+- Assumptions: [anything inferred]
+
 ## Screenshot Coverage
 
 - Coverage: [Full-page / Section set / Partial]
@@ -104,6 +111,7 @@ Blur private contact details or unrelated personal data before uploading.
 ## Snapshot
 
 - Current positioning: [summary]
+- Goal: [selected or assumed goal]
 - Target reader: [summary]
 - Strongest proof: [summary]
 - Main gap: [summary]
@@ -174,6 +182,21 @@ Blur private contact details or unrelated personal data before uploading.
 1. [change]
 2. [change]
 3. [change]
+```
+
+## Goal Intake Request
+
+```markdown
+Before I score this profile, what is the main goal?
+
+1. Job search / recruiter visibility
+2. Personal brand / thought leadership
+3. Customer acquisition / sales
+4. Founder / investor credibility
+5. Executive presence / board credibility
+6. General cleanup
+
+Optional: share the target role, audience, market, or offer you want the profile optimized for.
 ```
 
 ## Content Strategy Add-On
