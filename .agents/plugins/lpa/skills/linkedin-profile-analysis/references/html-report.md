@@ -4,7 +4,7 @@ Use this when the user asks for a polished report, dashboard, chart view, sharea
 
 ## Recommendation
 
-Use `assets/report-template.html` as the report template. It is a static, single-file HTML report with embedded CSS and small vanilla JavaScript chart rendering. It has no external runtime dependency, so the user can open it locally in a browser.
+Use `assets/report-template.html` as the report template. It is a static, single-file HTML report with embedded CSS and small vanilla JavaScript score rendering. It has no external runtime dependency, so the user can open it locally in a browser.
 
 Do not introduce a build step. Do not use React, shadcn/ui, Chart.js, or ECharts unless the user explicitly asks for a custom web app. For this use case, a dependency-free report is more reliable for non-technical users.
 
@@ -49,14 +49,17 @@ const auditData = {
 };
 ```
 
-## Chart And Design Notes
+## Score And Design Notes
 
 - Overall score is 0-100.
 - Dimension and section scores are 1-5.
 - Overall score should use goal-specific weighting from `goal-intake.md` when the goal is known.
 - Include the selected goal and primary reader in the report metadata.
 - Use `null` for missing or unreadable sections so the report renders them as `Unknown`.
+- Keep dimension and section notes attached to their score rows. Do not add separate scorecard or section-note tables.
+- Use the `?` detail button in each score row for evidence, risk/gap, and fix text.
 - Keep priorities to 3-7 items.
 - Keep copy boxes short enough to scan.
+- Keep the type scale restrained: title, section heading, body text, and small labels only.
 - Keep the palette mixed and restrained: green/teal for strong, amber for weak, rose for severe, blue only for secondary emphasis.
 - Avoid decorative visuals, large hero marketing layouts, and nested cards. This is an audit dashboard.

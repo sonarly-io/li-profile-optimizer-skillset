@@ -26,7 +26,7 @@
       margin: 0;
       background: var(--bg);
       color: var(--ink);
-      font: 15px/1.5 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font: 14px/1.5 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
 
     .page {
@@ -71,16 +71,16 @@
 
     h1 {
       max-width: 820px;
-      font-size: 34px;
+      font-size: 30px;
     }
 
     h2 {
-      font-size: 20px;
+      font-size: 16px;
       margin-bottom: 14px;
     }
 
     h3 {
-      font-size: 15px;
+      font-size: 14px;
       margin-bottom: 8px;
     }
 
@@ -140,26 +140,65 @@
     }
 
     .verdict {
-      font-size: 18px;
+      font-size: 15px;
       color: #26323a;
     }
 
-    .chart {
-      min-height: 260px;
-    }
-
-    .bar-row {
+    .score-list {
       display: grid;
-      grid-template-columns: minmax(120px, 1fr) 5fr 36px;
-      gap: 12px;
-      align-items: center;
-      margin: 12px 0;
+      gap: 10px;
     }
 
-    .bar-label {
+    .score-row {
+      display: grid;
+      gap: 8px;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fbfcfd;
+    }
+
+    .score-head {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto auto;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .score-name {
       color: var(--ink);
-      font-size: 13px;
       font-weight: 700;
+    }
+
+    .score-value {
+      min-width: 56px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: #e6f3f1;
+      color: var(--teal);
+      font-weight: 800;
+      text-align: center;
+    }
+
+    .info-button {
+      display: grid;
+      place-items: center;
+      width: 28px;
+      height: 28px;
+      border: 1px solid var(--line);
+      border-radius: 50%;
+      background: var(--surface);
+      color: var(--muted);
+      cursor: pointer;
+      font: inherit;
+      font-weight: 800;
+    }
+
+    .info-button:hover,
+    .info-button:focus-visible {
+      border-color: var(--teal);
+      color: var(--teal);
+      outline: none;
     }
 
     .bar-track {
@@ -175,11 +214,29 @@
       background: var(--teal);
     }
 
-    .bar-value {
+    .score-detail {
+      display: none;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      padding-top: 10px;
+      border-top: 1px solid var(--line);
+    }
+
+    .score-row.is-open .score-detail {
+      display: grid;
+    }
+
+    .detail-label {
+      margin-bottom: 4px;
       color: var(--muted);
-      font-size: 13px;
-      font-weight: 700;
-      text-align: right;
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .detail-text {
+      margin: 0;
+      color: #26323a;
     }
 
     .priority-list {
@@ -216,41 +273,6 @@
       color: var(--muted);
     }
 
-    table {
-      width: 100%;
-      border-collapse: collapse;
-    }
-
-    th, td {
-      padding: 12px 10px;
-      border-bottom: 1px solid var(--line);
-      text-align: left;
-      vertical-align: top;
-    }
-
-    th {
-      color: var(--muted);
-      font-size: 12px;
-      text-transform: uppercase;
-      letter-spacing: 0;
-    }
-
-    td.score {
-      width: 72px;
-      font-weight: 800;
-    }
-
-    .score-pill {
-      display: inline-flex;
-      min-width: 38px;
-      justify-content: center;
-      padding: 4px 8px;
-      border-radius: 999px;
-      background: #e6f3f1;
-      color: var(--teal);
-      font-weight: 800;
-    }
-
     .copy-box {
       padding: 16px;
       border: 1px solid var(--line);
@@ -284,9 +306,8 @@
         grid-column: span 1;
       }
 
-      h1 { font-size: 28px; }
-      .bar-row { grid-template-columns: 1fr; }
-      .bar-value { text-align: left; }
+      h1 { font-size: 26px; }
+      .score-detail { grid-template-columns: 1fr; }
     }
 
     @media print {
@@ -322,48 +343,16 @@
 
       <div class="panel content span-6">
         <h2>Dimension Scores</h2>
-        <div class="chart" id="dimensionChart"></div>
+        <div class="score-list" id="dimensionChart"></div>
       </div>
       <div class="panel content span-6">
         <h2>Section Scores</h2>
-        <div class="chart" id="sectionChart"></div>
+        <div class="score-list" id="sectionChart"></div>
       </div>
 
       <div class="panel content span-12">
         <h2>Top Priorities</h2>
         <ol class="priority-list" id="priorities"></ol>
-      </div>
-
-      <div class="panel content span-12">
-        <h2>Scorecard</h2>
-        <table>
-          <thead>
-            <tr>
-              <th>Dimension</th>
-              <th>Score</th>
-              <th>Evidence</th>
-              <th>Risk</th>
-              <th>Best Fix</th>
-            </tr>
-          </thead>
-          <tbody id="scorecard"></tbody>
-        </table>
-      </div>
-
-      <div class="panel content span-12">
-        <h2>Section Notes</h2>
-        <table>
-          <thead>
-            <tr>
-              <th>Section</th>
-              <th>Score</th>
-              <th>What Works</th>
-              <th>Gap</th>
-              <th>Fix</th>
-            </tr>
-          </thead>
-          <tbody id="sections"></tbody>
-        </table>
       </div>
 
       <div class="panel content span-6">
@@ -447,6 +436,15 @@
       return value == null || value === "" ? "Unknown" : String(value);
     }
 
+    function escapeHtml(value) {
+      return text(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
     function scoreText(value) {
       return value == null ? "Unknown" : String(value);
     }
@@ -460,31 +458,44 @@
         `Confidence: ${auditData.confidence}`,
         auditData.generatedAt
       ].filter(Boolean);
-      document.getElementById("meta").innerHTML = meta.map(item => `<span class="chip">${text(item)}</span>`).join("");
+      document.getElementById("meta").innerHTML = meta.map(item => `<span class="chip">${escapeHtml(item)}</span>`).join("");
     }
 
-    function renderBars(id, items) {
+    function renderScoreList(id, items, type) {
       document.getElementById(id).innerHTML = items.map(item => {
         const score = item.score;
         const width = typeof score === "number" ? Math.max(0, Math.min(100, (score / maxScore) * 100)) : 0;
+        const detailId = `${id}-${item.name}`.replace(/[^a-z0-9]+/gi, "-").toLowerCase();
+        const detailA = type === "dimension" ? ["Evidence", item.evidence] : ["Works", item.works];
+        const detailB = type === "dimension" ? ["Risk", item.risk] : ["Gap", item.gap];
+        const detailC = ["Fix", item.fix];
         return `
-          <div class="bar-row">
-            <div class="bar-label">${text(item.name)}</div>
-            <div class="bar-track" aria-label="${text(item.name)} score ${scoreText(score)} out of 5">
+          <div class="score-row">
+            <div class="score-head">
+              <div class="score-name">${escapeHtml(item.name)}</div>
+              <div class="score-value" style="color:${colorForScore(score)}">${escapeHtml(scoreText(score))}/5</div>
+              <button class="info-button" type="button" aria-label="Show notes for ${escapeHtml(item.name)}" aria-expanded="false" aria-controls="${detailId}">?</button>
+            </div>
+            <div class="bar-track" aria-label="${escapeHtml(item.name)} score ${escapeHtml(scoreText(score))} out of 5">
               <div class="bar-fill" style="width:${width}%; background:${colorForScore(score)}"></div>
             </div>
-            <div class="bar-value">${scoreText(score)}</div>
+            <div class="score-detail" id="${detailId}">
+              <div>
+                <div class="detail-label">${escapeHtml(detailA[0])}</div>
+                <p class="detail-text">${escapeHtml(detailA[1])}</p>
+              </div>
+              <div>
+                <div class="detail-label">${escapeHtml(detailB[0])}</div>
+                <p class="detail-text">${escapeHtml(detailB[1])}</p>
+              </div>
+              <div>
+                <div class="detail-label">${escapeHtml(detailC[0])}</div>
+                <p class="detail-text">${escapeHtml(detailC[1])}</p>
+              </div>
+            </div>
           </div>
         `;
       }).join("");
-    }
-
-    function renderTable(id, rows, cells) {
-      document.getElementById(id).innerHTML = rows.map(row => `
-        <tr>
-          ${cells.map(cell => cell(row)).join("")}
-        </tr>
-      `).join("");
     }
 
     function renderPriorities() {
@@ -492,11 +503,21 @@
         <li class="priority">
           <div class="rank">${index + 1}</div>
           <div>
-            <h3>${text(item.title)}</h3>
-            <p>${text(item.detail)}</p>
+            <h3>${escapeHtml(item.title)}</h3>
+            <p>${escapeHtml(item.detail)}</p>
           </div>
         </li>
       `).join("");
+    }
+
+    function bindScoreDetails() {
+      document.querySelectorAll(".info-button").forEach(button => {
+        button.addEventListener("click", () => {
+          const row = button.closest(".score-row");
+          const isOpen = row.classList.toggle("is-open");
+          button.setAttribute("aria-expanded", String(isOpen));
+        });
+      });
     }
 
     function render() {
@@ -507,35 +528,20 @@
 
       const coverage = auditData.coverage || {};
       document.getElementById("coverage").innerHTML = `
-        <p><strong>Coverage:</strong> ${text(coverage.type)}</p>
-        <p><strong>Visible:</strong> ${text((coverage.visibleSections || []).join(", "))}</p>
-        <p><strong>Missing:</strong> ${text((coverage.missingSections || []).join(", "))}</p>
-        <p class="muted">${text(coverage.notes)}</p>
+        <p><strong>Coverage:</strong> ${escapeHtml(coverage.type)}</p>
+        <p><strong>Visible:</strong> ${escapeHtml((coverage.visibleSections || []).join(", "))}</p>
+        <p><strong>Missing:</strong> ${escapeHtml((coverage.missingSections || []).join(", "))}</p>
+        <p class="muted">${escapeHtml(coverage.notes)}</p>
       `;
 
-      renderBars("dimensionChart", auditData.dimensions || []);
-      renderBars("sectionChart", auditData.sections || []);
+      renderScoreList("dimensionChart", auditData.dimensions || [], "dimension");
+      renderScoreList("sectionChart", auditData.sections || [], "section");
       renderPriorities();
-
-      renderTable("scorecard", auditData.dimensions || [], [
-        row => `<td><strong>${text(row.name)}</strong></td>`,
-        row => `<td class="score"><span class="score-pill" style="color:${colorForScore(row.score)}">${scoreText(row.score)}</span></td>`,
-        row => `<td>${text(row.evidence)}</td>`,
-        row => `<td>${text(row.risk)}</td>`,
-        row => `<td>${text(row.fix)}</td>`
-      ]);
-
-      renderTable("sections", auditData.sections || [], [
-        row => `<td><strong>${text(row.name)}</strong></td>`,
-        row => `<td class="score"><span class="score-pill" style="color:${colorForScore(row.score)}">${scoreText(row.score)}</span></td>`,
-        row => `<td>${text(row.works)}</td>`,
-        row => `<td>${text(row.gap)}</td>`,
-        row => `<td>${text(row.fix)}</td>`
-      ]);
+      bindScoreDetails();
 
       document.getElementById("headline").textContent = text(auditData.suggestedHeadline);
       document.getElementById("about").textContent = text(auditData.suggestedAboutOpening);
-      document.getElementById("facts").innerHTML = (auditData.factsToConfirm || []).map(item => `<li>${text(item)}</li>`).join("");
+      document.getElementById("facts").innerHTML = (auditData.factsToConfirm || []).map(item => `<li>${escapeHtml(item)}</li>`).join("");
     }
 
     render();
