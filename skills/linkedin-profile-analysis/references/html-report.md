@@ -61,5 +61,6 @@ const auditData = {
 - Keep priorities to 3-7 items.
 - Keep copy boxes short enough to scan.
 - Keep the type scale restrained: title, section heading, body text, and small labels only.
+- Keep the report layout as one column. Do not use a bento grid or side-by-side cards for the report sections.
 - Keep the palette mixed and restrained: green/teal for strong, amber for weak, rose for severe, blue only for secondary emphasis.
 - Avoid decorative visuals, large hero marketing layouts, and nested cards. This is an audit dashboard.
