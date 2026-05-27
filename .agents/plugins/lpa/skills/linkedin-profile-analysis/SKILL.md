@@ -59,6 +59,7 @@ Core dimensions:
 ## Output Formats
 
 Read `references/output-templates.md` when the user asks for a particular deliverable or when a structured response would help.
+Read `references/html-report.md` when the user asks for a polished HTML report, dashboard, charts, shareable artifact, or browser-openable deliverable.
 
 Default audit format:
 
@@ -71,6 +72,8 @@ Default audit format:
 7. **Open Inputs**: missing facts that would materially improve the profile.
 
 Keep outputs direct and decision-oriented. Avoid padded explanations of LinkedIn basics unless the user asks.
+
+When creating an HTML report, use the bundled template at `assets/report-template.html` and only replace the `auditData` object. The report should include charted dimension scores, section scores, top priorities, suggested copy, and facts to confirm.
 
 ## Ethics And Boundaries
 

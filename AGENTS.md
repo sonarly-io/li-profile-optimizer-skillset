@@ -7,6 +7,7 @@ Load reference files only as needed:
 - `skills/linkedin-profile-analysis/references/screenshot-intake.md` when the user needs capture instructions or provides screenshots.
 - `skills/linkedin-profile-analysis/references/analysis-rubric.md` for scorecards, audits, and audience-fit analysis.
 - `skills/linkedin-profile-analysis/references/output-templates.md` for structured deliverables and section rewrites.
+- `skills/linkedin-profile-analysis/references/html-report.md` when the user asks for a polished HTML report, dashboard, charts, or browser-openable artifact.
 - `skills/linkedin-profile-analysis/references/ethics-and-boundaries.md` for sensitive, third-party, scraped, or high-stakes analysis.
 - `skills/linkedin-profile-analysis/references/research-basis.md` when explaining why profile sections or metrics matter.
 

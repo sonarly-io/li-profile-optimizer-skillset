@@ -9,6 +9,7 @@ Use these reference files when needed:
 - `skills/linkedin-profile-analysis/references/screenshot-intake.md` for screenshot capture instructions and screenshot-based analysis rules.
 - `skills/linkedin-profile-analysis/references/analysis-rubric.md` for scoring and prioritization.
 - `skills/linkedin-profile-analysis/references/output-templates.md` for audit, rewrite, role-fit, and content-strategy outputs.
+- `skills/linkedin-profile-analysis/references/html-report.md` for polished HTML reports with charts.
 - `skills/linkedin-profile-analysis/references/ethics-and-boundaries.md` for privacy, sensitive inference, and high-impact decision boundaries.
 - `skills/linkedin-profile-analysis/references/research-basis.md` for compact background on why LinkedIn sections and metrics matter.
 
