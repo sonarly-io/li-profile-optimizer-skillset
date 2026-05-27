@@ -1,7 +1,7 @@
 {
   "name": "lpo",
   "description": "LI Profile Optimizer Skillset for profile audits, scorecards, discoverability, positioning, and section rewrites.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Sonarly"
   }

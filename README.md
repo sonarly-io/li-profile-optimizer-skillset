@@ -18,6 +18,10 @@ codex plugin marketplace add sonarly-io/li-profile-optimizer-skillset
 codex plugin add lpo@sonarly
 ```
 
+Gemini:
+
+Use `platforms/gemini-gems/li-profile-optimizer-skillset.md` as custom Gem instructions.
+
 ## Capture Your Profile
 
 Use desktop Chrome:
@@ -44,3 +48,7 @@ Blur private contact details before uploading screenshots.
 Screenshots are processed by the AI provider you use, such as Claude or Codex. Do not upload private contact details, third-party private data, or profiles you do not have permission to analyze.
 
 This skillset gives profile communication feedback only. Do not use it for hiring, compensation, eligibility, credit, legal, insurance, or other high-impact decisions.
+
+## Maintainers
+
+See `CONTRIBUTING.md` and `SECURITY.md`. Run `./scripts/validate.sh` before publishing changes.

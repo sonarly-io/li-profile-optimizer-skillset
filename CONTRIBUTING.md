@@ -31,3 +31,9 @@ Run before opening a pull request:
 This checks the root skill, bundled Codex plugin copy, plugin manifests, Claude marketplace manifest, JavaScript syntax in HTML reports, and that `skills/` matches `.agents/plugins/lpo/skills/`.
 
 Some checks require local Codex skill/plugin validator scripts or the Claude CLI. If those tools are unavailable, the script prints a skip message. Set `SKILL_VALIDATE_PY` or `PLUGIN_VALIDATE_PY` to point at custom validator locations.
+
+## Generated And Mirrored Files
+
+- `examples/mock-linkedin-profile-audit.html` is generated from `skills/linkedin-profile-analysis/assets/report-template.html` and `examples/mock-audit-data.json`. Run `node scripts/generate-example.js` after changing either file.
+- `.agents/plugins/lpo/skills/` mirrors `skills/` because Codex marketplace installation expects a bundled plugin directory. Keep it synced with `rm -rf .agents/plugins/lpo/skills && cp -R skills .agents/plugins/lpo/skills`, then run `./scripts/validate.sh`.
+- Bump plugin versions in `.codex-plugin/plugin.json`, `.agents/plugins/lpo/.codex-plugin/plugin.json`, `.claude-plugin/plugin.json`, and `.claude-plugin/marketplace.json` for public releases. Claude plugin installs can cache explicit versions.

@@ -1,0 +1,181 @@
+{
+  "profileName": "Mock Profile: Revenue-Focused Founder",
+  "targetGoal": "Customer acquisition / sales",
+  "primaryReader": "B2B SaaS founders, growth leaders, and sales decision-makers",
+  "targetContext": "Fractional growth advisory for seed to Series B SaaS companies",
+  "generatedAt": "2026-05-27",
+  "confidence": "High",
+  "coverage": {
+    "type": "Full-page desktop screenshot",
+    "visibleSections": [
+      "Intro / Hero",
+      "About",
+      "Featured",
+      "Activity / Posts",
+      "Experience",
+      "Skills",
+      "Education"
+    ],
+    "missingSections": [
+      "Recommendations"
+    ],
+    "notes": "The screenshot is readable across the major profile sections. Recommendations are not visible, so social-proof scoring is limited."
+  },
+  "overallScore": 68,
+  "verdict": "The profile has enough credibility for a buyer to keep reading, but the commercial promise is still too indirect. For a sales-led profile, the first screen should make the offer, buyer, and proof point obvious before the visitor scrolls. The strongest next move is to convert broad founder language into a sharper buyer-facing positioning statement and back it with specific outcomes in Featured and Experience.",
+  "dimensions": [
+    {
+      "name": "Screenshot coverage",
+      "score": 4.5,
+      "evidence": "Most core profile sections are visible in one full-page screenshot.",
+      "risk": "Recommendations and some deeper proof may be missed.",
+      "fix": "Add a second screenshot if recommendations, licenses, or publications matter."
+    },
+    {
+      "name": "Positioning clarity",
+      "score": 3,
+      "evidence": "The profile communicates seniority and growth experience, but the exact offer is implied.",
+      "risk": "Qualified buyers may not understand when to contact the person.",
+      "fix": "State buyer, problem, offer, and outcome directly in the headline and About opening."
+    },
+    {
+      "name": "Visual trust and hierarchy",
+      "score": 4,
+      "evidence": "The profile has a professional first impression and a readable visual hierarchy.",
+      "risk": "The banner does not reinforce the growth advisory category.",
+      "fix": "Use a banner with a concise category signal, such as SaaS growth systems or revenue acceleration."
+    },
+    {
+      "name": "Credibility density",
+      "score": 3.5,
+      "evidence": "Experience supports the claim, but concrete numbers are scattered.",
+      "risk": "The profile asks the buyer to infer impact instead of seeing it immediately.",
+      "fix": "Move 3-5 proof points into About, Featured, and top Experience bullets."
+    },
+    {
+      "name": "Audience fit",
+      "score": 3,
+      "evidence": "SaaS and growth themes are present, but the ICP is not sharply named.",
+      "risk": "The profile can read like general consulting instead of a clear fit for a specific buyer.",
+      "fix": "Name the target buyer and stage: seed to Series B SaaS founders and growth leaders."
+    },
+    {
+      "name": "Search discoverability",
+      "score": 3,
+      "evidence": "Relevant terms like growth, SaaS, revenue, and founder appear in visible sections.",
+      "risk": "Important buyer-search terms may not be repeated in high-signal sections.",
+      "fix": "Add natural variants: go-to-market, pipeline, activation, retention, lifecycle, PLG, sales-led growth."
+    },
+    {
+      "name": "Narrative coherence",
+      "score": 3.5,
+      "evidence": "The career story generally supports the current positioning.",
+      "risk": "The reader may see several capabilities but not one strong commercial lane.",
+      "fix": "Connect past operator experience to the current advisory promise."
+    },
+    {
+      "name": "Conversion readiness",
+      "score": 2.5,
+      "evidence": "The profile does not make the next step obvious enough for a buyer.",
+      "risk": "Interested visitors may leave without knowing what to ask for.",
+      "fix": "Add a direct CTA in About and use Featured to point to a diagnostic, case study, or booking path."
+    },
+    {
+      "name": "Content authority",
+      "score": 3,
+      "evidence": "Recent activity is visible, but the topic lane is not consistent enough.",
+      "risk": "Content does not yet compound trust around the sales offer.",
+      "fix": "Publish around 3 recurring themes: pipeline quality, SaaS growth systems, and founder-led sales execution."
+    }
+  ],
+  "sections": [
+    {
+      "name": "Intro / Hero",
+      "score": 3,
+      "works": "Professional presence and founder credibility are visible quickly.",
+      "gap": "The headline does not clearly package the offer for a buyer.",
+      "fix": "Rewrite around buyer, problem, outcome, and proof."
+    },
+    {
+      "name": "About",
+      "score": 3,
+      "works": "The About section gives useful career context.",
+      "gap": "The opening does not lead with a buyer-specific promise.",
+      "fix": "Start with the ICP and the measurable business problem solved."
+    },
+    {
+      "name": "Featured",
+      "score": 2.5,
+      "works": "There is space to showcase proof assets.",
+      "gap": "Assets do not yet function as a buyer conversion path.",
+      "fix": "Feature a case study, diagnostic, offer page, and one high-trust talk or post."
+    },
+    {
+      "name": "Activity / Posts",
+      "score": 3,
+      "works": "The profile shows current activity.",
+      "gap": "The posts do not yet form a clear authority lane.",
+      "fix": "Use recurring post formats tied to SaaS growth decisions."
+    },
+    {
+      "name": "Experience",
+      "score": 3.5,
+      "works": "Roles support founder and growth credibility.",
+      "gap": "Impact bullets are not quantified enough.",
+      "fix": "Add revenue, pipeline, activation, retention, team, or market-scope metrics."
+    },
+    {
+      "name": "Skills",
+      "score": 3,
+      "works": "Relevant skill terms are visible.",
+      "gap": "The top skills may not match buyer-search language.",
+      "fix": "Prioritize SaaS growth, go-to-market strategy, revenue operations, PLG, and lifecycle marketing."
+    },
+    {
+      "name": "Recommendations",
+      "score": null,
+      "works": "Unknown from screenshot.",
+      "gap": "Not visible in the provided capture.",
+      "fix": "Add or screenshot recommendations from founders, CEOs, or revenue leaders."
+    },
+    {
+      "name": "Education / Certifications",
+      "score": 3,
+      "works": "Baseline trust information is present.",
+      "gap": "This section is not central to the sales goal.",
+      "fix": "Keep it concise unless a credential directly increases buyer trust."
+    }
+  ],
+  "priorities": [
+    {
+      "title": "Make the offer obvious in the first screen",
+      "detail": "Use the headline to name the buyer, business problem, outcome, and category."
+    },
+    {
+      "title": "Turn Featured into a proof path",
+      "detail": "Lead with one case study, one diagnostic or offer page, and one credibility asset."
+    },
+    {
+      "title": "Rewrite the About opening for buyers",
+      "detail": "Start with the commercial problem and the type of company this profile helps."
+    },
+    {
+      "title": "Quantify operator credibility",
+      "detail": "Add truthful metrics for pipeline, revenue, activation, retention, team size, or company stage."
+    },
+    {
+      "title": "Create a visible content lane",
+      "detail": "Repeat 3-5 themes so visitors associate the profile with SaaS growth execution."
+    }
+  ],
+  "suggestedHeadline": "I help seed-Series B SaaS founders fix leaky growth systems | GTM, pipeline quality, activation & retention | Ex-[role/company proof]",
+  "suggestedAboutOpening": "I work with SaaS founders and growth leaders who need cleaner pipeline, stronger activation, and a more repeatable path from demand to revenue. My work combines operator experience in [stage/category] with hands-on GTM systems across [proof point], [proof point], and [proof point].",
+  "factsToConfirm": [
+    "Best target buyer and company stage",
+    "Strongest revenue or pipeline metric",
+    "Most credible customer or case study",
+    "Preferred call to action",
+    "Proof assets available for Featured",
+    "Whether recommendations can be shown publicly"
+  ]
+}

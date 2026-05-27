@@ -28,6 +28,7 @@ else
 fi
 
 diff -qr skills .agents/plugins/lpo/skills
+node scripts/generate-example.js --check
 
 node - <<'NODE'
 const fs = require('fs');

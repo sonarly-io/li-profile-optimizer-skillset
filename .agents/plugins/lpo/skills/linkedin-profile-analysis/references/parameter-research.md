@@ -22,6 +22,18 @@ Use sources in this order:
 4. Preprints and syndicated articles only as lower-confidence context. Label them as such if cited to a user.
 5. Practitioner content only as weak context. Do not use social posts or Reddit as primary evidence for scoring.
 
+## Research Limits
+
+The sources below support the evaluation logic, not a validated prediction model. They do not prove that a given score will improve search rank, hiring outcomes, sales conversion, follower growth, or investor interest.
+
+Separate the evidence layers:
+
+- **Platform mechanics**: LinkedIn documentation about sections, Featured, Skills, Recruiter filters, and Talent Insights.
+- **Market behavior**: research about recruiting, people search, B2B buying, trust, or AI-assisted discovery.
+- **Heuristic scoring**: this skillset's own weighting and prioritization rules.
+
+When producing user-facing analysis, say "profile structure and keyword-readiness" rather than "ranking optimization" unless a platform source supports the stronger claim.
+
 ## Recent Research Snapshot
 
 Recent sources inside the 90-day window:

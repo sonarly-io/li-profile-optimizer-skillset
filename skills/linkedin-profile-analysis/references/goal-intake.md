@@ -32,6 +32,8 @@ Do not ask all questions by default. If the user uploaded screenshots and the go
 
 Use this weighting to adjust emphasis and prioritization. Scores still use the same 1-5 scale; the weights affect overall score, order of recommendations, and which fixes matter most.
 
+These weights are heuristic defaults, not empirically validated benchmarks. They encode the expected information needs of different profile readers. If a user's context conflicts with the defaults, adjust the weights and state the assumption.
+
 ### Job Search / Recruiter Visibility
 
 Highest weight:
@@ -136,7 +138,7 @@ Use balanced weighting across all dimensions. Prioritize first-screen clarity, o
 
 If producing an overall score, calculate it as a goal-weighted average of visible dimension scores. Do not include `Unknown` dimensions in the denominator. State when the overall score is approximate because screenshots are partial.
 
-Default weights by goal:
+Default heuristic weights by goal:
 
 | Dimension | Job Search | Brand | Sales | Founder | Executive | General |
 |---|---:|---:|---:|---:|---:|---:|
