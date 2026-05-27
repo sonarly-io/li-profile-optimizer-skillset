@@ -2,7 +2,7 @@
 
 Use this as compact background when explaining why a section matters.
 
-For deeper parameter-level context, use `parameter-research.md`. It includes the current 90-day recency rule, recent-source snapshot, and detailed evaluation guidance for each dimension and section metric.
+For deeper parameter-level context, use `parameter-research.md`. It includes the current 90-day recency rule, a stale-after date for source freshness, and detailed evaluation guidance for each dimension and section metric.
 
 ## Official LinkedIn Product Signals
 

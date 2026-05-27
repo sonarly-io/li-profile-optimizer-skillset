@@ -1,6 +1,6 @@
 # HTML Report Output
 
-Use this when the user asks for a polished report, dashboard, chart view, shareable artifact, or HTML page.
+Use this when the user asks for a polished report, dashboard, visual score view, shareable artifact, or HTML page.
 
 ## Recommendation
 

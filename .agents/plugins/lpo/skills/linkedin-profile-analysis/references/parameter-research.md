@@ -2,6 +2,8 @@
 
 Last reviewed: 2026-05-27.
 
+Treat this snapshot as stale after 2026-08-25. If the current date is after that date, browse for newer sources before using any item below as current research.
+
 Use this file when you need more evaluation context for the scorecard dimensions and section metrics. It translates current research and stable LinkedIn product documentation into practical audit questions.
 
 ## Recency Rule
@@ -15,9 +17,10 @@ If no suitable source exists inside the 90-day window for a parameter, use the l
 Use sources in this order:
 
 1. Current LinkedIn product, Talent Solutions, Sales Navigator, Economic Graph, or Marketing Solutions material.
-2. Recent reputable research from firms such as Gartner, Edelman, SurveyMonkey, G2, Reuters, or peer-reviewed/preprint research when it directly relates to recruiting, professional search, B2B buying, trust, or AI-mediated discovery.
+2. Recent reputable research from firms such as Gartner, Edelman, SurveyMonkey, G2, Reuters, or peer-reviewed research when it directly relates to recruiting, professional search, B2B buying, trust, or AI-mediated discovery.
 3. Stable LinkedIn Help documentation for product mechanics such as profile sections, Featured, Skills, Recruiter filters, and Talent Insights.
-4. Practitioner content only as weak context. Do not use social posts or Reddit as primary evidence for scoring.
+4. Preprints and syndicated articles only as lower-confidence context. Label them as such if cited to a user.
+5. Practitioner content only as weak context. Do not use social posts or Reddit as primary evidence for scoring.
 
 ## Recent Research Snapshot
 
@@ -27,11 +30,11 @@ Recent sources inside the 90-day window:
   Source: `https://economicgraph.linkedin.com/resources/linkedin-workforce-report-march-2026`
 - LinkedIn Marketing Solutions webinar, March 19, 2026: B2B buying preference is shaped before vendor contact; AI tools help determine shortlists, and trust signals help buying groups choose.
   Source: `https://business.linkedin.com/advertise/webinars/26/02/b2b-buying-in-2026-ai-research-meets-video-influence-apac`
-- PeopleSearchBench, submitted March 29, 2026: AI-powered people search should be evaluated using explicit criteria, factual relevance, coverage, and information utility. This maps well to profile audits because vague claims are harder to verify than explicit role, skill, scope, and proof signals.
+- PeopleSearchBench, submitted March 29, 2026: lower-confidence preprint context. AI-powered people search should be evaluated using explicit criteria, factual relevance, coverage, and information utility. This maps well to profile audits because vague claims are harder to verify than explicit role, skill, scope, and proof signals.
   Source: `https://arxiv.org/abs/2603.27476`
-- Resume-ing Control, submitted April 29, 2026: genAI can shape recruiting workflows and the information recruiters use for evaluation. This supports clearer, evidence-led profile content because profiles may be interpreted by both humans and AI-assisted workflows.
+- Resume-ing Control, submitted April 29, 2026: lower-confidence preprint context. GenAI can shape recruiting workflows and the information recruiters use for evaluation. This supports clearer, evidence-led profile content because profiles may be interpreted by both humans and AI-assisted workflows.
   Source: `https://arxiv.org/abs/2604.26851`
-- Reuters, April 29, 2026: LinkedIn described agentic AI hiring tools that take recruiter instructions and sift LinkedIn profiles for follow-up. This reinforces the importance of explicit search and fit signals in profiles.
+- Reuters, April 29, 2026, syndicated article: lower-confidence source-access context. LinkedIn described agentic AI hiring tools that take recruiter instructions and sift LinkedIn profiles for follow-up. This reinforces the importance of explicit search and fit signals in profiles, but cite it as syndicated unless a primary Reuters URL is available.
   Source: `https://www.investing.com/news/stock-market-news/linkedins-ai-hiring-agents-on-track-for-450-million-in-yearly-revenue-4647236`
 - Gartner, May 20, 2026: B2B buyers use AI and digital channels but still seek validation and confidence; buyer journeys mix AI, self-service, and human reassurance.
   Source: `https://www.gartner.com/en/newsroom/press-releases/2026-05-20-gartner-survey-finds-sixty-nine-percent-of-b-two-b-buyers-turn-to-sales-reps-to-validate-ai-generated-insights`

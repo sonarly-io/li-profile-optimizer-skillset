@@ -10,7 +10,7 @@ Use these reference files when needed:
 - `skills/linkedin-profile-analysis/references/goal-intake.md` when the user's goal or target audience is missing or ambiguous.
 - `skills/linkedin-profile-analysis/references/analysis-rubric.md` for scoring and prioritization.
 - `skills/linkedin-profile-analysis/references/output-templates.md` for audit, rewrite, role-fit, and content-strategy outputs.
-- `skills/linkedin-profile-analysis/references/html-report.md` for polished HTML reports with charts.
+- `skills/linkedin-profile-analysis/references/html-report.md` for polished HTML reports with visual score rows.
 - `skills/linkedin-profile-analysis/references/ethics-and-boundaries.md` for privacy, sensitive inference, and high-impact decision boundaries.
 - `skills/linkedin-profile-analysis/references/research-basis.md` for compact background on why LinkedIn sections and metrics matter.
 - `skills/linkedin-profile-analysis/references/parameter-research.md` for deeper research-backed context for each score dimension and section parameter.

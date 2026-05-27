@@ -38,3 +38,9 @@ Use LI Profile Optimizer Skillset to audit these screenshots. Score each profile
 ```
 
 Blur private contact details before uploading screenshots.
+
+## Privacy
+
+Screenshots are processed by the AI provider you use, such as Claude or Codex. Do not upload private contact details, third-party private data, or profiles you do not have permission to analyze.
+
+This skillset gives profile communication feedback only. Do not use it for hiring, compensation, eligibility, credit, legal, insurance, or other high-impact decisions.
