@@ -1,6 +1,6 @@
 ---
 name: linkedin-profile-analysis
-description: Analyze LinkedIn profiles from full-page screenshots, section screenshots, profile exports, or pasted profile text for positioning, credibility, recruiter discoverability, buyer/investor relevance, content strategy, and prioritized profile improvements. Use when Codex is asked to audit a LinkedIn profile, optimize a headline/about/experience section, compare a profile to a target role or audience, rewrite profile sections, assess thought-leadership signals, produce a LinkedIn profile scorecard, or guide a user through capturing LinkedIn profile screenshots for analysis.
+description: Analyze LinkedIn profiles from full-page screenshots, section screenshots, or pasted profile text for positioning, credibility, recruiter discoverability, buyer/investor relevance, content strategy, and prioritized profile improvements. Use when Codex is asked to audit a LinkedIn profile, optimize a headline/about/experience section, compare a profile to a target role or audience, rewrite profile sections, assess thought-leadership signals, produce a LinkedIn profile scorecard, or guide a user through capturing LinkedIn profile screenshots for analysis.
 ---
 
 # LinkedIn Profile Analysis
@@ -13,7 +13,7 @@ Use this skill to turn user-provided LinkedIn screenshots or profile material in
 
 Start by identifying the profile analysis context:
 
-- **Material**: full-page screenshot, section screenshots, pasted profile text, PDF/export, profile URL summary, job description, target audience, or competitor examples.
+- **Material**: full-page screenshot, section screenshots, pasted profile text, job description, target audience, or competitor examples.
 - **Goal**: recruiter visibility, founder credibility, sales/outreach conversion, executive presence, creator/content growth, investor trust, or general cleanup.
 - **Constraints**: tone, geography, industry norms, seniority, desired roles, keywords, and sections the user wants rewritten.
 - **Missing data**: ask only for critical missing inputs. If enough profile material exists, proceed and flag assumptions.

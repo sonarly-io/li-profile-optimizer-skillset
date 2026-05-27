@@ -8,7 +8,7 @@ Use this as compact background when explaining why a section matters.
 - LinkedIn describes the Featured section as a place to showcase work samples and evidence of skills and experience. Featured content can include posts, articles, external links, documents, images, presentations, and videos.
 - LinkedIn distinguishes Featured from Activity: Featured is curated, while Activity reflects posts, comments, articles, and other recent activity. Activity may be hidden when there is no recent activity or privacy settings restrict it.
 - LinkedIn Recruiter guidance emphasizes profile fields and filters such as title, skills, keywords, company, location, languages, and other structured profile data. Skills are particularly important because they can be explicitly listed and used in search/filtering.
-- Chrome DevTools supports a Command Menu workflow for screenshots, including full-size capture, which is useful for collecting a full profile view without asking users to export PDFs.
+- Chrome DevTools supports a Command Menu workflow for screenshots, including full-size capture, which is useful for collecting a full profile view from the browser.
 
 ## Source Links
 

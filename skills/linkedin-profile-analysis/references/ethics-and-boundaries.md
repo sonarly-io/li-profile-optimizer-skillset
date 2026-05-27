@@ -4,7 +4,7 @@ LinkedIn profile analysis often involves personal data. Keep the work limited to
 
 ## Data Handling
 
-- Prefer user-provided profile text, screenshots, exports, resumes, job descriptions, or target-audience notes.
+- Prefer user-provided screenshots, profile text, resumes, job descriptions, or target-audience notes.
 - If the user asks to browse a public profile, access only what is publicly available and cite sources.
 - Do not bypass access controls, scrape at scale, use fake accounts, or advise on evading platform limits.
 - Do not store, expose, or republish profile data beyond the user's requested deliverable.
