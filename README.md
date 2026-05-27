@@ -13,7 +13,21 @@ A portable AI skillset for auditing and improving LinkedIn profiles. It supports
 
 Use a public GitHub repo. The core skill is plain Markdown plus reference files, so NPM is unnecessary unless this later adds a separate executable CLI package.
 
-After publishing this repo, users can install or copy from:
+Install everything with one command:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/sonarly-io/linkedin-profile-analyzer/main/install.sh | sh
+```
+
+Install one target only:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/sonarly-io/linkedin-profile-analyzer/main/install.sh | sh -s -- --target codex
+curl -fsSL https://raw.githubusercontent.com/sonarly-io/linkedin-profile-analyzer/main/install.sh | sh -s -- --target claude
+curl -fsSL https://raw.githubusercontent.com/sonarly-io/linkedin-profile-analyzer/main/install.sh | sh -s -- --target gemini
+```
+
+The canonical skill folder is also available at:
 
 ```text
 https://github.com/sonarly-io/linkedin-profile-analyzer/tree/main/skills/linkedin-profile-analysis
@@ -26,6 +40,19 @@ skills/linkedin-profile-analysis
 ```
 
 ## Installation
+
+### One Command
+
+The installer copies the skill into:
+
+- `~/.agents/skills/linkedin-profile-analysis` as a provider-neutral fallback
+- `~/.claude/skills/linkedin-profile-analysis` for Claude Code
+- `${CODEX_HOME:-~/.codex}/skills/linkedin-profile-analysis` for Codex
+- `~/.gemini/skills/linkedin-profile-analysis` and imports it from `~/.gemini/GEMINI.md` for Gemini CLI
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/sonarly-io/linkedin-profile-analyzer/main/install.sh | sh
+```
 
 ### Claude / Claude Code
 
