@@ -1,0 +1,26 @@
+{
+  "name": "sonarly",
+  "metadata": {
+    "description": "Sonarly AI agent skillsets and plugins."
+  },
+  "owner": {
+    "name": "Sonarly",
+    "email": "maurice.ihl1996@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "lpa",
+      "description": "LinkedIn Profile Analyzer skillset for profile audits, scorecards, discoverability, positioning, and section rewrites.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Sonarly"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sonarly-io/linkedin-profile-analyzer.git"
+      },
+      "category": "productivity",
+      "homepage": "https://github.com/sonarly-io/linkedin-profile-analyzer"
+    }
+  ]
+}

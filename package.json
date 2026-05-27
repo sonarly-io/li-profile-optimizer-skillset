@@ -1,0 +1,43 @@
+{
+  "name": "@sonarly/lpa",
+  "version": "0.1.0",
+  "description": "LinkedIn Profile Analyzer skillset installer for Claude, Codex, Gemini, and provider-neutral agents.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "lpa": "./bin/lpa.js"
+  },
+  "files": [
+    "bin",
+    "install.sh",
+    "skills",
+    "platforms",
+    "AGENTS.md",
+    "GEMINI.md",
+    "README.md",
+    "LICENSE",
+    ".claude-plugin",
+    ".codex-plugin",
+    ".agents"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonarly-io/linkedin-profile-analyzer.git"
+  },
+  "homepage": "https://github.com/sonarly-io/linkedin-profile-analyzer#readme",
+  "bugs": {
+    "url": "https://github.com/sonarly-io/linkedin-profile-analyzer/issues"
+  },
+  "keywords": [
+    "ai-agent",
+    "skill",
+    "claude",
+    "codex",
+    "gemini",
+    "linkedin",
+    "profile-analysis"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

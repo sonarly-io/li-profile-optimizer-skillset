@@ -1,0 +1,20 @@
+{
+  "name": "sonarly",
+  "interface": {
+    "displayName": "Sonarly"
+  },
+  "plugins": [
+    {
+      "name": "lpa",
+      "source": {
+        "source": "local",
+        "path": "./.agents/plugins/lpa"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

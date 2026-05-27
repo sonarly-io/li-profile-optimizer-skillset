@@ -9,17 +9,37 @@ A portable AI skillset for auditing and improving LinkedIn profiles. It supports
 - **Gemini CLI**: run from this repo or copy `GEMINI.md` into a project using Gemini CLI.
 - **Gemini Apps Gems**: paste `platforms/gemini-gems/linkedin-profile-analyzer.md` into a custom Gem's instructions.
 
-## Recommended Distribution
+## Recommended Install
 
-Use a public GitHub repo. The core skill is plain Markdown plus reference files, so NPM is unnecessary unless this later adds a separate executable CLI package.
+Use the native plugin marketplace commands for Claude Code and Codex.
 
-Install everything with one command:
+Claude Code:
+
+```bash
+claude plugin marketplace add sonarly-io/linkedin-profile-analyzer
+claude plugin install lpa@sonarly
+```
+
+Codex:
+
+```bash
+codex plugin marketplace add sonarly-io/linkedin-profile-analyzer
+codex plugin add lpa@sonarly
+```
+
+After the Sonarly npm package is published, the cross-agent installer can also be exposed as:
+
+```bash
+npx @sonarly/lpa add
+```
+
+Until then, direct shell install remains available:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/sonarly-io/linkedin-profile-analyzer/main/install.sh | sh
 ```
 
-Install one target only:
+Direct shell target installs:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/sonarly-io/linkedin-profile-analyzer/main/install.sh | sh -s -- --target codex
@@ -33,6 +53,14 @@ The canonical skill folder is also available at:
 https://github.com/sonarly-io/linkedin-profile-analyzer/tree/main/skills/linkedin-profile-analysis
 ```
 
+## Native Plugin Package
+
+This repo is packaged as:
+
+- Claude marketplace `sonarly`, plugin `lpa`
+- Codex marketplace `sonarly`, plugin `lpa`
+- npm package `@sonarly/lpa` for the optional cross-agent installer
+
 ## Skill Path
 
 ```text
@@ -41,7 +69,7 @@ skills/linkedin-profile-analysis
 
 ## Installation
 
-### One Command
+### Cross-Agent Installer
 
 The installer copies the skill into:
 
@@ -51,7 +79,27 @@ The installer copies the skill into:
 - `~/.gemini/skills/linkedin-profile-analysis` and imports it from `~/.gemini/GEMINI.md` for Gemini CLI
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/sonarly-io/linkedin-profile-analyzer/main/install.sh | sh
+npx @sonarly/lpa add
+```
+
+This requires publishing `@sonarly/lpa` to npm first. Use `install.sh` directly until the package is published.
+
+### Claude Native Plugin Install
+
+Claude Code has a native plugin marketplace flow:
+
+```bash
+claude plugin marketplace add sonarly-io/linkedin-profile-analyzer
+claude plugin install lpa@sonarly
+```
+
+### Codex Native Plugin Install
+
+Codex has a native plugin marketplace flow:
+
+```bash
+codex plugin marketplace add sonarly-io/linkedin-profile-analyzer
+codex plugin add lpa@sonarly
 ```
 
 ### Claude / Claude Code

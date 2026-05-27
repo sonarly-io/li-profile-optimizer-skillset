@@ -1,0 +1,39 @@
+{
+  "name": "lpa",
+  "version": "0.1.0",
+  "description": "LinkedIn Profile Analyzer skillset for profile audits, scorecards, discoverability, positioning, and section rewrites.",
+  "author": {
+    "name": "Sonarly",
+    "email": "maurice.ihl1996@gmail.com",
+    "url": "https://github.com/sonarly-io"
+  },
+  "homepage": "https://github.com/sonarly-io/linkedin-profile-analyzer",
+  "repository": "https://github.com/sonarly-io/linkedin-profile-analyzer",
+  "license": "MIT",
+  "keywords": [
+    "linkedin",
+    "profile-analysis",
+    "skills",
+    "claude",
+    "codex",
+    "gemini"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "LinkedIn Profile Analyzer",
+    "shortDescription": "Audit and rewrite LinkedIn profiles.",
+    "longDescription": "Evidence-led LinkedIn profile analysis for positioning, credibility, recruiter discoverability, audience fit, content authority, and prioritized section rewrites.",
+    "developerName": "Sonarly",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://github.com/sonarly-io/linkedin-profile-analyzer",
+    "defaultPrompt": [
+      "Audit this LinkedIn profile and prioritize fixes.",
+      "Rewrite my LinkedIn headline and About section.",
+      "Score this profile against a target role."
+    ],
+    "brandColor": "#0F766E"
+  }
+}
