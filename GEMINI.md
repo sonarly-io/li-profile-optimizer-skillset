@@ -1,4 +1,4 @@
-# LinkedIn Profile Analyzer
+# LI Profile Optimizer Skillset
 
 Use this repository as a LinkedIn profile analysis skillset.
 

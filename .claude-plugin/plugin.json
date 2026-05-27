@@ -1,6 +1,6 @@
 {
-  "name": "lpa",
-  "description": "LinkedIn Profile Analyzer skillset for profile audits, scorecards, discoverability, positioning, and section rewrites.",
+  "name": "lpo",
+  "description": "LI Profile Optimizer Skillset for profile audits, scorecards, discoverability, positioning, and section rewrites.",
   "version": "0.1.0",
   "author": {
     "name": "Sonarly"

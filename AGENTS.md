@@ -1,4 +1,4 @@
-# LinkedIn Profile Analyzer Skillset
+# LI Profile Optimizer Skillset
 
 When asked to analyze, audit, rewrite, or optimize a LinkedIn profile, use the skill instructions in `skills/linkedin-profile-analysis/SKILL.md`.
 

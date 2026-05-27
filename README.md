@@ -1,4 +1,4 @@
-# LinkedIn Profile Analyzer
+# LI Profile Optimizer Skillset
 
 Analyze a LinkedIn profile from screenshots and get a scored profile audit with prioritized fixes.
 
@@ -7,15 +7,15 @@ Analyze a LinkedIn profile from screenshots and get a scored profile audit with 
 Claude Code:
 
 ```bash
-claude plugin marketplace add sonarly-io/linkedin-profile-analyzer
-claude plugin install lpa@sonarly
+claude plugin marketplace add sonarly-io/li-profile-optimizer-skillset
+claude plugin install lpo@sonarly
 ```
 
 Codex:
 
 ```bash
-codex plugin marketplace add sonarly-io/linkedin-profile-analyzer
-codex plugin add lpa@sonarly
+codex plugin marketplace add sonarly-io/li-profile-optimizer-skillset
+codex plugin add lpo@sonarly
 ```
 
 ## Capture Your Profile
@@ -34,7 +34,7 @@ If full-page capture does not work, upload screenshots of: intro/hero, About, Fe
 ## Use
 
 ```text
-Use the LinkedIn Profile Analyzer to audit these screenshots. Score each profile section, identify the top fixes, and rewrite the headline and About opening.
+Use LI Profile Optimizer Skillset to audit these screenshots. Score each profile section, identify the top fixes, and rewrite the headline and About opening.
 ```
 
 Blur private contact details before uploading screenshots.

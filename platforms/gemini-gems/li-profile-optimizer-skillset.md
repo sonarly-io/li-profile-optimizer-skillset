@@ -1,4 +1,4 @@
-# LinkedIn Profile Analyzer Gem Instructions
+# LI Profile Optimizer Skillset Gem Instructions
 
 ## Persona
 

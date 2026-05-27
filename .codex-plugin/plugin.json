@@ -1,14 +1,14 @@
 {
-  "name": "lpa",
+  "name": "lpo",
   "version": "0.1.0",
-  "description": "LinkedIn Profile Analyzer skillset for profile audits, scorecards, discoverability, positioning, and section rewrites.",
+  "description": "LI Profile Optimizer Skillset for profile audits, scorecards, discoverability, positioning, and section rewrites.",
   "author": {
     "name": "Sonarly",
     "email": "maurice.ihl1996@gmail.com",
     "url": "https://github.com/sonarly-io"
   },
-  "homepage": "https://github.com/sonarly-io/linkedin-profile-analyzer",
-  "repository": "https://github.com/sonarly-io/linkedin-profile-analyzer",
+  "homepage": "https://github.com/sonarly-io/li-profile-optimizer-skillset",
+  "repository": "https://github.com/sonarly-io/li-profile-optimizer-skillset",
   "license": "MIT",
   "keywords": [
     "linkedin",
@@ -20,7 +20,7 @@
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "LinkedIn Profile Analyzer",
+    "displayName": "LI Profile Optimizer Skillset",
     "shortDescription": "Audit and rewrite LinkedIn profiles.",
     "longDescription": "Evidence-led LinkedIn profile analysis for positioning, credibility, recruiter discoverability, audience fit, content authority, and prioritized section rewrites.",
     "developerName": "Sonarly",
@@ -28,7 +28,7 @@
     "capabilities": [
       "Interactive"
     ],
-    "websiteURL": "https://github.com/sonarly-io/linkedin-profile-analyzer",
+    "websiteURL": "https://github.com/sonarly-io/li-profile-optimizer-skillset",
     "defaultPrompt": [
       "Audit this LinkedIn profile and prioritize fixes.",
       "Rewrite my LinkedIn headline and About section.",
