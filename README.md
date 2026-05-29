@@ -2,6 +2,27 @@
 
 Analyze a LinkedIn profile from screenshots and get a scored profile audit with prioritized fixes.
 
+![Example LinkedIn profile audit report](examples/mock-linkedin-profile-audit-preview.png)
+
+## What It Does
+
+This skillset helps Claude, Codex, or Gemini review a LinkedIn profile from screenshots. It scores the profile, explains the evidence behind each score, identifies the highest-impact fixes, and can rewrite the headline and About opening.
+
+Expected output:
+
+- goal-aware overall score
+- section scores for hero, About, Featured, Activity, Experience, Skills, and social proof
+- prioritized fixes
+- suggested headline and About copy
+- optional browser-openable HTML report
+
+## Quick Start
+
+1. Install the skillset.
+2. Capture your LinkedIn profile screenshot.
+3. Upload the screenshot to Claude or Codex.
+4. Use the sample prompt below.
+
 ## Install
 
 Claude Code:
@@ -40,6 +61,29 @@ If full-page capture does not work, upload screenshots of: intro/hero, About, Fe
 ```text
 Use LI Profile Optimizer Skillset to audit these screenshots. Score each profile section, identify the top fixes, and rewrite the headline and About opening.
 ```
+
+More targeted prompt:
+
+```text
+Use LI Profile Optimizer Skillset to audit my LinkedIn profile for customer acquisition.
+
+Primary reader: B2B SaaS founders and growth leaders.
+Goal: make the profile clearer, more credible, and more likely to convert profile visitors into qualified conversations.
+
+Please return:
+1. Overall score
+2. Section scores
+3. Top 5 fixes
+4. Suggested headline
+5. Suggested About opening
+6. Facts I need to confirm before publishing
+7. A polished HTML report if possible
+```
+
+Example report:
+
+- [Open the mock HTML report](examples/mock-linkedin-profile-audit.html)
+- [View the mock data](examples/mock-audit-data.json)
 
 Blur private contact details before uploading screenshots.
 
