@@ -4,6 +4,14 @@ Analyze a LinkedIn profile from screenshots and get a scored profile audit with 
 
 ![Example LinkedIn profile audit report](examples/mock-linkedin-profile-audit-preview.png)
 
+## Free Web Tool
+
+Want a quick first check without installing anything or using Claude/Codex tokens? Use the free Sonarly LinkedIn Profile Analyzer:
+
+[Analyze your LinkedIn profile on Sonarly](https://sonarly.io/linkedin-profile-analyzer)
+
+Upload your LinkedIn profile PDF, choose your goal, and get a simple first analysis. Use this skillset when you want a deeper review inside Claude, Codex, or Gemini with screenshots, custom context, rewrites, and an optional HTML report.
+
 ## What It Does
 
 This skillset helps Claude, Codex, or Gemini review a LinkedIn profile from screenshots. It scores the profile, explains the evidence behind each score, identifies the highest-impact fixes, and can rewrite the headline and About opening.
